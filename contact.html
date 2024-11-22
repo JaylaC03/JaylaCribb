@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Styled Contact Info</title>
+    <style>
+        /* Set the entire background to hot pink */
+        body {
+            background-color: hotpink;
+            margin: 0;
+            font-family: Arial, sans-serif; /* Ensure consistent font styling */
+        }
+
+        /* Style for sections */
+        section {
+            margin-bottom: 5vh; /* Add margin below each section */
+            border: 5px solid rgb(4, 4, 4); /* Add border around each section */
+            padding: 5vh; /* Add padding inside each section */
+            border-radius: 20px; /* Add border radius for rounded corners */
+            overflow: hidden; /* Ensure content doesn't overflow */
+            background-color: rgb(248, 178, 223); /* Background color for the border */
+            width: 90%; /* Use a percentage width for responsiveness */
+            max-width: 800px; /* Limit the maximum width for larger screens */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a slight shadow for better visibility */
+            margin: auto; /* Center the section */
+        }
+
+        /* Style for images */
+        img {
+            width: 20%; /* Use percentage width for responsiveness */
+            height: auto; /* Maintain aspect ratio */
+            border-radius: 20px; /* Make image corners rounder */
+            float: left;
+            margin-right: 5%; /* Adjust margin for spacing */
+        }
+
+        /* Style for paragraphs */
+        p {
+            margin: 10px 0; /* Add margin to paragraphs for spacing */
+            color: #060606; /* Color of the words */
+            font-size: 1.2em; /* Increase font size for better readability */
+        }
+
+        /* Style for strong tags */
+        strong {
+            color: black; /* Color for strong tags */
+        }
+
+        .index-link {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .index-link a:link,
+        .index-link a:visited {
+            background-color:#e91e63; /* Set background color for links */
+            color: black;
+            border: 2px solid rgb(12, 12, 12);
+            padding: 1em 2em; /* Use em units for responsive padding */
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            border-radius: 25px; /* Make button corners rounder */
+            transition: background-color 0.3s, color 0.3s; /* Add transition for hover effects */
+        }
+
+        .index-link a:hover,
+        .index-link a:active {
+            background-color: rgb(248, 178, 223); /* Change background color on hover */
+            color: rgb(8, 8, 8); /* Change text color on hover */
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <img src="IMG_4522.jpg" alt="An image of Jayla Cribb">
+        <div>
+            <p><strong>Name:</strong> Jayla Cribb</p>
+            <p><strong>Personal:</strong> jaylacribb2@gmail.com</p>
+            <p><strong>Student:</strong> jcri3927@students.vsu.edu</p>
+            <p><strong>Phone number:</strong> (804) 659-7141</p>
+        </div>
+    </section>
+
+    <div class="index-link">
+        <a href="index.html">Home page</a>
+    </div>
+</body>
+</html>
